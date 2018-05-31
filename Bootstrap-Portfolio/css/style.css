@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:link {
+    color: #fde669;
+}
+
+.navbar-custom-color{
+    background: #fde669;
+    border-style: dotted;
+    border-width: 0 0 1px 0;
+    border-color: lightgray;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 0 0 1px 0;
+    border-color: lightgray;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.custom-button {
+    background: #fde669;
+    border-color: #fde669;
+}
+.container {
+    padding: 30px 0;
+}
+.floating-profile-pic{
+    float: left;
+    max-width: 200px;
+    height: auto;
+    margin: 0 15px 0 0;
+}
+
+.profile-pic{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+.p-button-pic {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: #fde669;
+    border-style: dotted;
+    border-width: 1px 0 0 0;
+    border-color: lightgray;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 15px;
+}
