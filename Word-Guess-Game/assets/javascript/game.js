@@ -93,17 +93,15 @@ playingField.textContent = board.hiddenWord.join("");
 
 
 // Listens for pressed key and stores it into variable letterInput
-var match1 = playingField.textContent = letterArray[i];
-var match2 = playingField.textContent = hiddenWord[i];
 document.onkeyup = function(){
     letterInput = event.key;
     for (i=0; i < letterArray.length; i++) {
             if (letterArray[i] === letterInput.toUpperCase() | letterArray[i] === letterInput.toLowerCase()) {
-                console.log(match1 += "");
+                console.log(playingField.textContent = letterArray[i]);
             }
             else {
                 // console.log(hiddenWord[i]);
-                console.log(match2 += "");
+                console.log(playingField.textContent = hiddenWord[i]);
             }
         }
 }
