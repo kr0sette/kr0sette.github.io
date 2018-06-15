@@ -1,0 +1,40 @@
+/* div{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+} */
+
+img {
+    width: 100px;
+}
+
+#game-title {
+ font-weight: bold;
+ padding: 10px;
+}
+
+#instructions {
+    float: left;
+    width: 25%;
+}
+
+#start-button, #budget, #total{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+.fruit-container {
+    float:left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+#wins, #losses{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
