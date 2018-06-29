@@ -46,7 +46,7 @@ $("body").on("click",".aButton", function(){
     //Create variable for query URL
         //incorporate variable that stores the animal name
         //limit results to 10
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=nfY8ip1bPze0r22KDMrP8pLHY9JqD0Tq&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=nfY8ip1bPze0r22KDMrP8pLHY9JqD0Tq&limit=10";
     //Perform AJAX GET request
     $.ajax ({
         url: queryURL,
