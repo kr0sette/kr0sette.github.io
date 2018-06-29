@@ -1,0 +1,15 @@
+.btn{
+    margin: 3px;
+}
+
+#animals {
+    width: 70%;
+    float: left;
+    margin: 5px;
+}
+
+#animal-form{
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
