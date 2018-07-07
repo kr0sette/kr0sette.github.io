@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Train Schedule</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/style.css" />
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Custom Javascript -->
+        <script src="assets/script.js"></script>
+        <!-- Firebase Javascript -->
+    </head>
+
+    
+    <body>
+        <!-- Train Schdule Jumotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">New Jersey Transit Times</h1>
+                <p class="lead">Where Schedules Are Made Up and Being On Time Doesn't Matter</p>
+            </div>
+        </div>
+
+        <!-- Train Schedule -->
+        <div class="card schedule">
+            <h5 class="card-header">Current Train Schedule</h5>
+            <div class="card-body">
+                <p class="card-text">Train Table Will Go Here</p>
+            </div>
+        </div>
+
+        <!-- Add Train Form -->
+        <div class="card add-train">
+            <h5 class="card-header">Add Train</h5>
+            <div class="card-body">
+                <form>
+                    <!-- Train Name -->
+                    <div class="form-group">
+                        <label for="trainName">Train Name</label>
+                        <input type="text" class="form-control" id="train-name" placeholder="Train Name">
+                    </div>
+                    <!-- Destination -->
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <input type="text" class="form-control" id="destination" placeholder="Destination">
+                    </div>
+                    <!-- First Train Time -->
+                    <div class="form-group">
+                        <label for="firstTrainTime">First Train Time</label>
+                        <input type="text" class="form-control" id="first-train-time" placeholder="00:00">
+                        <small id="time-format" class="form-text text-muted">HH:mm Military Time</small>
+                        </div>
+                    <!-- Frequencey -->
+                    <div class="form-group">
+                        <label for="frequency">Frequency</label>
+                        <input type="text" class="form-control" id="frequency" placeholder="0">
+                        <small id="frequency-format" class="form-text text-muted">In Minutes</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
