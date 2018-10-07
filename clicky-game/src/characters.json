@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Andy Dwyer",
+    "image": "https://i.imgur.com/MAcojO2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ann Perkins",
+    "image": "https://i.imgur.com/0apit6E.jpg"
+  },
+  {
+    "id": 3,
+    "name": "April Ludgate",
+    "image": "https://i.imgur.com/iuBLZaX.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ben Wyatt",
+    "image": "https://i.imgur.com/geovDsL.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chris Traeger",
+    "image": "https://i.imgur.com/PQdW0I6.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Donna Meagle",
+    "image": "https://i.imgur.com/INBklDf.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jean Ralphio",
+    "image": "https://i.imgur.com/UW5i0OG.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jerry Gergich",
+    "image": "https://i.imgur.com/vf6dacR.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Leslie Knope",
+    "image": "https://i.imgur.com/NEHxHlc.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ron Swanson",
+    "image": "https://i.imgur.com/uc8sJZ7.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Tammy Swanson",
+    "image": "https://i.imgur.com/Tafm5fY.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Tom Haverford",
+    "image": "https://i.imgur.com/xtftNQ3.jpg"
+  }
+]

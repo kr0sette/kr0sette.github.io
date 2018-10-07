@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 2px 15px slategrey;
+}
+
+ul {
+    width: 100%
+}
+
+li {
+    float: left;
+    width: 33%;
+    text-align: center;
+
+}
